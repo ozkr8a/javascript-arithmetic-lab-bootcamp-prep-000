@@ -4,13 +4,16 @@ function add(a, b){
 }
 
 function subtract(a, b){
-  a -= b
+  var result = a - b
+  return result
 }
 
 function multiply(a, b){
-  a *= b
+  var result = a * b
+  return result
 }
 
 function divide(a, b){
-  a /= b
+  var result = a / b
+  return result
 }
